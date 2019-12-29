@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import './App.css'
 import Greet from './components/Greet'
 import Welcome from './components/Welcome'
@@ -13,11 +13,11 @@ import UserGreeting from './components/UserGreeting'
 import NameList from './components/NameList'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <br />
-        {/* <Hello />
+    render() {
+        return (
+            <div className="App">
+                <br/>
+                {/* <Hello />
         <Greet name="Bruce" heroName="Batman">
           <p>This is children props</p>
         </Greet>
@@ -36,10 +36,12 @@ class App extends Component {
         <EventBind />
         <ParentComponent />
         <UserGreeting /> */}
-        <NameList />
-      </div>
-    )
-  }
+                <Hello/>
+                <Counter />
+                <NameList/>
+            </div>
+        )
+    }
 }
 
 export default App
